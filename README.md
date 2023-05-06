@@ -5,3 +5,5 @@ It has simple interface of just one main component that just showcase dynamicall
 The styling is made using Chakra UI, The API that is used to fetch dynamic data is "Online Movie Database".
 
 Here is a LIVE LINK of this repository : https://prathamsakhare.github.io/Movie-Search/
+
+An API that is used to fetch data dynamically : https://rapidapi.com/apidojo/api/online-movie-database/
