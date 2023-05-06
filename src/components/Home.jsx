@@ -61,10 +61,7 @@ const Home = () => {
       <Box display={'flex'} flexWrap={'wrap'} justifyContent={'space-evenly'} mt={5}> 
         {movies?.map((item, key) => {
           return (
-            // <div key={item.id}>
-            //     <img src={item.i?.imageUrl} alt="" />
-            //     <p>{item.l}</p>
-            // </div>
+            
             <Box my={3} className='boxChakra'>
               <CardPad
                 name={item.l}
