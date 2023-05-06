@@ -58,11 +58,15 @@ const Home = () => {
           </HStack>
         </Center>
       </Box>
-      <Box display={'flex'} flexWrap={'wrap'} justifyContent={'space-evenly'} mt={5}> 
+      <Box
+        display={'flex'}
+        flexWrap={'wrap'}
+        justifyContent={'space-evenly'}
+        mt={5}
+      >
         {movies?.map((item, key) => {
           return (
-            
-            <Box my={3} className='boxChakra'>
+            <Box my={3} className="boxChakra">
               <CardPad
                 name={item.l}
                 key={item.id}
