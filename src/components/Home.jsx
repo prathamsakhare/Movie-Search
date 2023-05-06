@@ -43,7 +43,7 @@ const Home = () => {
           <HStack>
             <form onSubmit={submitHandler}>
               <Input
-                placeholder="Enter a Movie Name..."
+                placeholder="Search Movie Here..."
                 width={'90'}
                 type="text"
                 value={endpoint}
