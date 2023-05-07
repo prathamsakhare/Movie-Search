@@ -11,7 +11,7 @@ const Home = () => {
     url: 'https://online-movie-database.p.rapidapi.com/auto-complete',
     params: { q: `${endpoint}` },
     headers: {
-      'X-RapidAPI-Key': '9ec33527cbmshfaf2fd1d87d9a76p18f24ajsnb026150744ca',
+      'X-RapidAPI-Key': '{YOUR RAPID API KEY}',
       'X-RapidAPI-Host': 'online-movie-database.p.rapidapi.com',
     },
   };
